@@ -1,0 +1,20 @@
+package com.example.springboot.JPADemo;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class NotesServiceImpl implements NotesService {
+
+	@Autowired
+	NotesRepo notesRepo;
+	
+	@Override
+	public List<Notes> showAllNotes() {
+		// TODO Auto-generated method stub
+		return notesRepo.;
+	}
+
+}

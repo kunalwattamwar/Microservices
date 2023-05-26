@@ -1,0 +1,8 @@
+package com.example.springboot.JPADemo;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class NotesRepoImpl implements NotesRepo {
+
+}

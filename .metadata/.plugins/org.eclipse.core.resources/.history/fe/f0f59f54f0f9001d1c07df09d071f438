@@ -1,0 +1,13 @@
+package com.example.commentservice.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.commentservice.service.CommentsService;
+
+@RestController
+public class CommentsController {
+	
+	@Autowired
+	CommentsService commentsService;
+}

@@ -1,0 +1,13 @@
+package com.example.commentservice.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.commentservice.repo.CommentsRepo;
+
+@Service
+public class CommentsServiceImpl implements CommentsService {
+	
+	@Autowired
+	CommentsRepo commentsRepo;
+}

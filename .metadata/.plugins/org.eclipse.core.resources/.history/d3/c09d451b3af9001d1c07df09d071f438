@@ -1,0 +1,9 @@
+package com.example.springboot.JPADemo;
+
+import java.util.List;
+
+public interface NotesRepo {
+
+	public List<Notes> showAllNotes();
+
+}

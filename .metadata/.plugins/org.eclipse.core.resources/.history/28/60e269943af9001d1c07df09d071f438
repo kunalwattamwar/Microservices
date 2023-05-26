@@ -1,0 +1,16 @@
+package com.example.springboot.JPADemo;
+
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class NotesRepoImpl implements NotesRepo {
+
+	@Override
+	public List<Notes> showAllNotes() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
